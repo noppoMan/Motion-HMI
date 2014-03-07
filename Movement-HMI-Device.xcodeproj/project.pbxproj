@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B60CCCB418C8C6490009D9B7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60CCCB318C8C6490009D9B7 /* main.cpp */; };
+		B60CCCB618C8C6490009D9B7 /* Movement_HMI.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B60CCCB518C8C6490009D9B7 /* Movement_HMI.1 */; };
+		B60CCCBF18C8C7380009D9B7 /* libopencv_core.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B60CCCBC18C8C7380009D9B7 /* libopencv_core.2.4.8.dylib */; };
+		B60CCCC018C8C7380009D9B7 /* libopencv_highgui.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B60CCCBD18C8C7380009D9B7 /* libopencv_highgui.2.4.8.dylib */; };
+		B60CCCC118C8C7380009D9B7 /* libopencv_imgproc.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B60CCCBE18C8C7380009D9B7 /* libopencv_imgproc.2.4.8.dylib */; };
+		B60CCCC918C8D0140009D9B7 /* CvPractice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B60CCCC718C8D0140009D9B7 /* CvPractice.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B60CCCAE18C8C6490009D9B7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B60CCCB618C8C6490009D9B7 /* Movement_HMI.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B60CCCB018C8C6490009D9B7 /* Movement-HMI-Device */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Movement-HMI-Device"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60CCCB318C8C6490009D9B7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B60CCCB518C8C6490009D9B7 /* Movement_HMI.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Movement_HMI.1; sourceTree = "<group>"; };
+		B60CCCBC18C8C7380009D9B7 /* libopencv_core.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.8.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.8.2/lib/libopencv_core.2.4.8.dylib; sourceTree = "<group>"; };
+		B60CCCBD18C8C7380009D9B7 /* libopencv_highgui.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.8.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.8.2/lib/libopencv_highgui.2.4.8.dylib; sourceTree = "<group>"; };
+		B60CCCBE18C8C7380009D9B7 /* libopencv_imgproc.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.8.dylib; path = ../../../../../../usr/local/Cellar/opencv/2.4.8.2/lib/libopencv_imgproc.2.4.8.dylib; sourceTree = "<group>"; };
+		B60CCCC718C8D0140009D9B7 /* CvPractice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CvPractice.cpp; sourceTree = "<group>"; };
+		B60CCCC818C8D0140009D9B7 /* CvPractice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvPractice.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B60CCCAD18C8C6490009D9B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60CCCBF18C8C7380009D9B7 /* libopencv_core.2.4.8.dylib in Frameworks */,
+				B60CCCC018C8C7380009D9B7 /* libopencv_highgui.2.4.8.dylib in Frameworks */,
+				B60CCCC118C8C7380009D9B7 /* libopencv_imgproc.2.4.8.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B60CCCA718C8C6490009D9B7 = {
+			isa = PBXGroup;
+			children = (
+				B60CCCBC18C8C7380009D9B7 /* libopencv_core.2.4.8.dylib */,
+				B60CCCBD18C8C7380009D9B7 /* libopencv_highgui.2.4.8.dylib */,
+				B60CCCBE18C8C7380009D9B7 /* libopencv_imgproc.2.4.8.dylib */,
+				B60CCCB218C8C6490009D9B7 /* src */,
+				B60CCCB118C8C6490009D9B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B60CCCB118C8C6490009D9B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60CCCB018C8C6490009D9B7 /* Movement-HMI-Device */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B60CCCB218C8C6490009D9B7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B60CCCC218C8CF710009D9B7 /* lib */,
+				B60CCCB318C8C6490009D9B7 /* main.cpp */,
+				B60CCCB518C8C6490009D9B7 /* Movement_HMI.1 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B60CCCC218C8CF710009D9B7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B60CCCC718C8D0140009D9B7 /* CvPractice.cpp */,
+				B60CCCC818C8D0140009D9B7 /* CvPractice.h */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B60CCCAF18C8C6490009D9B7 /* Movement-HMI-Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60CCCB918C8C64A0009D9B7 /* Build configuration list for PBXNativeTarget "Movement-HMI-Device" */;
+			buildPhases = (
+				B60CCCAC18C8C6490009D9B7 /* Sources */,
+				B60CCCAD18C8C6490009D9B7 /* Frameworks */,
+				B60CCCAE18C8C6490009D9B7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movement-HMI-Device";
+			productName = "Movement-HMI";
+			productReference = B60CCCB018C8C6490009D9B7 /* Movement-HMI-Device */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B60CCCA818C8C6490009D9B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = miketokyo;
+			};
+			buildConfigurationList = B60CCCAB18C8C6490009D9B7 /* Build configuration list for PBXProject "Movement-HMI-Device" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B60CCCA718C8C6490009D9B7;
+			productRefGroup = B60CCCB118C8C6490009D9B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B60CCCAF18C8C6490009D9B7 /* Movement-HMI-Device */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B60CCCAC18C8C6490009D9B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60CCCB418C8C6490009D9B7 /* main.cpp in Sources */,
+				B60CCCC918C8D0140009D9B7 /* CvPractice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B60CCCB718C8C6490009D9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B60CCCB818C8C6490009D9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B60CCCBA18C8C64A0009D9B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.8.2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.8.2/lib,
+				);
+				PRODUCT_NAME = "Movement-HMI-Device";
+			};
+			name = Debug;
+		};
+		B60CCCBB18C8C64A0009D9B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.8.2/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.8.2/lib,
+				);
+				PRODUCT_NAME = "Movement-HMI-Device";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B60CCCAB18C8C6490009D9B7 /* Build configuration list for PBXProject "Movement-HMI-Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60CCCB718C8C6490009D9B7 /* Debug */,
+				B60CCCB818C8C6490009D9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60CCCB918C8C64A0009D9B7 /* Build configuration list for PBXNativeTarget "Movement-HMI-Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60CCCBA18C8C64A0009D9B7 /* Debug */,
+				B60CCCBB18C8C64A0009D9B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B60CCCA818C8C6490009D9B7 /* Project object */;
+}
